@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Blogger</title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+    <head>
+        <title>Blogger</title>
+        <%= stylesheet_link_tag    "application" %>
+        <%= javascript_include_tag "application" %>
+        <%= csrf_meta_tags %>
+    </head>
+    <body>
 
-<p class='flash'><%= flash[:notice] %></p>
+        <p class='flash'><%= flash[:notice] %></p>
 
-<%= yield %>
+        <%= yield %>
 
-</body>
+    </body>
 </html>
